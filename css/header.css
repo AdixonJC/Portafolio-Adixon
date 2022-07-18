@@ -64,7 +64,13 @@ nav a:hover{
     background-color: #1B1A17;
 }
 
-
+.main__responsive--scroll {
+    position: fixed;
+    top: -100px;
+    transform: translate(0 , 100px);
+    transition: all .6s;
+    background-color: #1B1A17;
+}
 
 
 .show {
@@ -82,7 +88,6 @@ nav a:hover{
 
 .hidden__menu {
    overflow: hidden;
-   position: absolute;
    display: flex;
    flex-direction: column;
    width: 100%;
@@ -91,20 +96,12 @@ nav a:hover{
    z-index: 10;
    transition: transform .7s ease;
    top: -200px;
-   transform: translate(0 , -400px);
+   transform: translate(0 , -100px);
+   position: absolute;
 }
 .show__menu {
-   overflow: hidden;
-   position: absolute;
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   justify-content: center;
-   background-color: #1B1A17;
-   z-index: 10;
-   top: -200px;
    transition: transform .6s ease;
-   transform: translate(0 , 265px);
+   transform: translate(0 , 260px);
 }
 
 @media (max-width: 870px ) {
@@ -115,5 +112,10 @@ nav a:hover{
   .header__container {
     display: none;
   }
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
 

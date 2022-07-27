@@ -9,9 +9,9 @@ nav a {
     font-weight: 600;
 }
 
-nav a:hover{
-    color: #F0A500 ;
-    transition: .6s;
+.active{
+    transition: color .6s;
+    color: #F0A500;
 }
 
 .header__container {

@@ -1,0 +1,41 @@
+#AboutMe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.div__img-aboutMe {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px red;
+}
+
+.div__img-aboutMe img {
+    width: 70%;
+    height: 90%;
+}
+
+.aboutMe-description {
+    border: solid 2px red;
+    width: 60%;
+    padding: 2%;
+    
+}
+
+.section-services {
+    border: solid 2px red;
+}
+
+.p__aboutMe {
+    line-height: 2em;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}

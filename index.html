@@ -5,7 +5,7 @@
     <meta http-equiv = "X-UA-compatible" content = "IE=edge">
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "keywords" content="Adixon Camacho, programador fullstack, artista digital">
-    <link rel="icon" href="./images/AC.ico">
+    <link rel="icon" href="./assets/images/AC.ico">
     <meta name = "description" content="Programador Web Full Stack,
     con conocimientos solidos en Backent y Frondent,
     artista digital con 3 años de experiencia, 
@@ -13,10 +13,13 @@
     <meta name = "author" content="Adixon Jose Camacho Rincon">
     <link rel = "stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/helpers.css">
-    <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/aboutMe.css">
+    <link rel="stylesheet" href="./css/contactMe.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/buttons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -27,23 +30,23 @@
     <!-- header start -->
     <header class="header__container" id="main-header">
          <nav>
-           <div class="nav-container display-flex space-between container row--center">
-            <a href="#home" class="brand">AdixonJC</a>
+           <div class="nav-container display-flex space-between margin__nav-container row--center">
+            <a href="#Home" class="brand list-item">AdixonJC</a>
              <ul>
                 <li>
-                    <a href="#AboutMe">About Me</a>
+                    <a href="#AboutMe" class="list-item">About Me</a>
                 </li>
                 <li>
-                    <a href="#skills">Services</a>
+                    <a href="#Services" class="list-item">Services</a>
                 </li>
                 <li>
-                    <a href="#workPerformeds">Work Performeds</a>
+                    <a href="#WorkPerformeds" class="list-item">Work Performeds</a>
                 </li>
                 <li>
-                    <a href="#contactMe">Contact Me</a>
+                    <a href="#Contact" class="list-item">Contact</a>
                 </li>
                 <li>
-                    <a href="#socialNetwork">Social Network</a>
+                    <a href="#SocialNetwork" class="list-item">Social Network</a>
                 </li>
              </ul>
            </div>
@@ -55,26 +58,26 @@
     <header id="main-header__responsive">
         <nav>
             <div class="main__responsive" id="div__main--responsive">
-                <a href="#home" class="brand">AdixonJC</a>
+                <a href="#Home" class="brand">AdixonJC</a>
                 <div class="padding-burguer">
                     <div class="show" id="burguer-menu"></div>
                 </div>
             </div>
             <ul class="hidden__menu" id="list__responsive">
                <li class="responsive__li">
-                   <a href="#AboutMe">About Me</a>
+                   <a href="#AboutMe" class="list-item">About Me</a>
                </li>
                <li class="responsive__li">
-                   <a href="#skills">Services</a>
+                   <a href="#Services" class="list-item">Services</a>
                </li>
                <li class="responsive__li">
-                   <a href="#workPerformeds">Work Performeds</a>
+                   <a href="#WorkPerformeds" class="list-item">Work Performeds</a>
                </li>
                <li class="responsive__li">
-                   <a href="#contactMe">Contact Me</a>
+                   <a href="#Contact" class="list-item">Contact</a>
                </li>
                <li class="responsive__li">
-                   <a href="#socialNetwork">Social Network</a>
+                   <a href="#SocialNetwork" class="list-item">Social Network</a>
                </li>
             </ul>
         </nav>
@@ -82,47 +85,71 @@
     <!-- responsive header end -->
 
     <!-- home start -->
-    <section id="home" class="section__home display-flex content__items--center section__screen--complete glass_container">
+    <section id="Home" class="section__home display-flex content__items--center section__screen--complete glass_container nav-items prueba">
          <div class="cssglass div__home--container ">
             <h2>Digital Artist</h2>
               <h2>and</h2>
-            <h1>Full Stack <b>Programmer</b></h1>
+            <h1>Full Stack <b>Developer</b></h1>
          </div>
     </section>
     <!-- home end -->
 
     <!-- AboutMe Start -->
-    <main>
-        <section id="AboutMe" class="section__screen--complete">
-        <div>
-            <img src="./images/AdixonFulltackProgrammer.jpg" alt="">
+    <main class="nav-items" id="AboutMe">
+      <section class="section__screen--complete section-aboutMe padding-container" >
+        <div  class="div__img-aboutMe">
+            <img src="./assets/images/AdixonFulltackProgrammer.jpg" alt="">
         </div>
-         <div>
-            <h3> Adixon Camacho</h3>
-            <p>
-              <pre>
-                 
-              </pre>
-            </p>
-            <h3>Profesional Goals</h3>
-             <p></p>
-            <button>Download C.V</button>
-            <button>Hire Me</button>
+         <div class="aboutMe-description">
+             <h3 class="border-line">I Am Full-Stack Developer</h3>
+             <div class="p__aboutMe">
+                <p>I'm <span>Adixon Camacho</span> I'm a developer who works on both 
+                    the front-end and back-end of a website or mobile application, 
+                    that is to say : 
+                    I'm both on the client and users side as well as on the server side.</p>
+                 <p>I do a full service, 
+                    which means I have the design, 
+                    content, database management and creation, 
+                    and even the digital realm covered. 
+                    You will establish a long lasting relationship, 
+                    collaboration is key in everything I do. 
+                    I will take you out of your comfort zone from time to time.</p>
+                    <span class="buton">
+                        <a 
+                          href="" 
+                          front="HIRE ME"
+                          back="send">
+                        </a>
+                    </span>
+                    <span class="buton">
+                        <a 
+                         href=""
+                         front="DOWNLOAD C.V"
+                         back="UPDOWN">
+                        </a>
+                    </span>
+             </div>
          </div>
-        <div>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </div>
         </section>
+        <div>
+           <div class="display-flex content__items--center">
+            <h3 class="border-line block">My Skills</h3>
+           </div>
+           <div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
     </main>
 
-   <section id="skills" class="section__screen--complete">
-       <div>SKILS PODEROSAS
-           <img src="" alt="">
+   <section id="Services" class="section__screen--complete nav-items section-services padding-container">
+       <div>
            <p></p>
            <h4></h4>
        </div>
@@ -136,17 +163,17 @@
        <div>SKILS PODEROSAS</div>
    </section>
 
-   <section class="section__screen--complete">
-       <img src="./images/productions4.jpg" width="200px" height="200px" alt="programacion">
-       <img src="./images/productions4.jpg" width="200px" height="200px" alt="programacion">
-       <img src="./images/productions4.jpg" width="200px" height="200px" alt="programacion">
-       <img src="./images/productions4.jpg" width="200px" height="200px" alt="programacion">
-       <img src="./images/productions4.jpg" width="200px" height="200px" alt="programacion">
-       <img src="./images/productions4.jpg" width="200px" height="200px" alt="programacion">
-       <img src="./images/productions4.jpg" width="200px" height="200px" alt="programacion">
+   <section class="section__screen--complete nav-items" id="WorkPerformeds">
+       <img src="./assets/images/pantalla5.jpg" width="200px" height="200px" alt="programacion">
+       <img src="./assets/images/pantalla5.jpg" width="200px" height="200px" alt="programacion">
+       <img src="./assets/images/pantalla5.jpg" width="200px" height="200px" alt="programacion">
+       <img src="./assets/images/pantalla5.jpg" width="200px" height="200px" alt="programacion">
+       <img src="./assets/images/pantalla5.jpg" width="200px" height="200px" alt="programacion">
+       <img src="./assets/images/pantalla5.jpg" width="200px" height="200px" alt="programacion">
+       <img src="./assets/images/pantalla5.jpg" width="200px" height="200px" alt="programacion">
    </section>
 
-   <section class="section__screen--complete">
+   <section class="section__screen--complete nav-items" id="Contact">
        <form action="">
    
            <label for="Name">Name</label>
@@ -165,7 +192,7 @@
    </section>
 
    <footer class="copyright">
-       <p>Copyright&copy;AC Productions All Rights Reserved</p>
+       <p>Copyright &copy; AC Productions All Rights Reserved</p>
    </footer>
    <script src="./Javascript/headerFunctions.js"></script>
 </body>

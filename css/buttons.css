@@ -1,0 +1,162 @@
+.buttons__container--aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-height: 20%;
+    min-width: 40%;
+}
+
+.button--contact a::after {
+    position: absolute;
+    content: attr(front);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0A500;
+    font-size: 1.1em;
+    text-align: center;
+    padding: .2em .5em;
+    height: 2.2em;
+    width: 8.6em;
+    transition: .3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 6px 0px #F0A500;
+}
+
+.button--contact {
+    position: relative;
+    display: inline-block;
+    min-width: 173px;
+    min-height: 60px;
+    text-align: center;
+    transform-style: preserve-3d;
+    margin: 0 2px;
+}
+
+
+
+.button--contact a::before{
+  position: absolute;
+  font-size: 1.1em;
+  padding: .2em .5em;
+  content: attr(back);
+  font-family: 'icomoon' ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  color: #F0A500;
+  transform-style: preserve-3d;
+  transform: translateY(-50%) rotateX(90deg);
+  border: 1px solid #F0A500;
+  height: 2.05em;
+  width: 8.5em;
+  transition: .3s;
+  box-shadow: 0px 0px 6px 0px #F0A500;
+}
+
+.button--contact a:hover::before {
+    transform: translateY(0) rotateX(0deg);
+    transition: .3s;
+}
+.button--contact a:hover::after {
+    transform: translateY(51%) rotateX(-90deg);
+    transition: .3s;
+}
+
+
+
+
+
+
+.buttons__container--aboutMe a {
+    font-weight: 700;
+    padding: .2em .7em;
+}
+
+
+.back-m a::after{
+  background-color: transparent;
+  color: #F0A500;
+  outline: 1px solid #F0A500;
+}
+
+.back-m a::before{
+    background-color: #F0A500;
+    color: #F0E3CA;
+    outline: 1px solid #F0A500; 
+  }
+
+.height-1 a::after{
+  height: 2.30em;
+}
+
+.height-1 a::before {
+    height: 2.15em;
+}
+/* .botonSpan {
+    position: relative;
+    border: 2px solid red;
+    min-width: 20%;
+    min-height: 30%;
+    display: inline-block;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.botonSpan a::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: attr(front);
+    position: absolute;
+    color: #F0A500;
+    background-color: transparent;
+    border:solid 1px #F0A500;
+    width: 128px;
+    height: 40px;
+    font-family: 'Open sans';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .3s;
+}
+
+.botonSpan a::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: attr(back);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F0A500;
+    width: 130px;
+    height: 40px;
+    transform-origin: bottom;
+    transform: translateY(-100%) rotateX(90deg);
+    font-family: "Open sans";
+    transition: .3s;
+}
+
+.botonSpan a:hover::before {
+    transform: translateY(0) rotateX(0deg);
+    transition: .3s;
+}
+
+.botonSpan a:hover::after {
+    transform: translateY(50%) rotateX(-90deg);
+    transition: .3s;
+} */
+

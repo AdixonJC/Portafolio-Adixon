@@ -34,7 +34,11 @@ footer p {
 }
 
 .padding-container {
-    padding: 7% 2%;
+    padding: 100px 0;
+}
+
+.font-weight {
+    font-weight: 300 !important;
 }
 
 /* style line start */
@@ -54,7 +58,7 @@ footer p {
   left: 0;
 }
 
-h3 {
+h3, h4 ,h5 ,h6 {
  text-align: left;
  margin-bottom: 30px;
  display: inline-block;

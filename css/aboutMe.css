@@ -129,7 +129,7 @@
     }
     .div__img-aboutMe img {
         position: relative;
-        width: 400px;
+        min-width: 400px;
         max-height: 350px ;
         transition: .6s;
     }

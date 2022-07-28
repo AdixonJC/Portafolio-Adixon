@@ -119,3 +119,10 @@ img {
     height: 200px;
 }
 
+@media (max-width: 620px ) {
+   .font-size {
+    font-size: 1.5em;
+    font-weight: 600;
+   }
+}
+

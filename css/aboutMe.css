@@ -82,7 +82,7 @@
         transition: .6s;
     }
     .aboutMe-description {
-        max-width: 55%;
+        max-width: 45%;
         padding: 2%;
         
     }
@@ -192,6 +192,5 @@
 }
 
 .div--skill__section {
-
 }
 

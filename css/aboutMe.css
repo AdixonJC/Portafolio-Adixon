@@ -125,7 +125,7 @@
 
 @media (max-width: 888px) {
     #AboutMe {
-        min-height: 850px;
+        min-height: 950px;
     }
     .div__img-aboutMe img {
         position: relative;

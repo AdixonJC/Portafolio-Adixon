@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    min-height: 20%;
 }
 
 .section-aboutMe {
@@ -24,6 +25,7 @@
     min-width: 80%;
     min-height: 90%;
     transition: .6s;
+    object-fit: cover;
 }
 
 .div__img-aboutMe::after {
@@ -60,21 +62,12 @@
     word-spacing: 2px;
 }
 
-.sectionSkills {
-    border: solid 2px red;
-}
-
-.div--skill__section {
-    padding: 100px 0;
-}
-
 @media (max-width: 1500px) {
     .div__img-aboutMe img {
         position: relative;
         width: 500px;
         height: 100px ;
         transition: .6s;
-        border: 2px solid red;
     }
     
     .div__img-aboutMe::after {
@@ -99,16 +92,15 @@
     .div__img-aboutMe img {
         position: relative;
         width: 500px;
-        height: 100px ;
+        max-height: 350px ;
         transition: .6s;
-        border: 2px solid red;
     }
     
     .div__img-aboutMe::after {
         position: absolute;
         content: "";
         width: 500px;
-        height: 100px;
+        max-height: 350px;
         background-color: #F0A500;
         transform: translate(15px, 15px);
         opacity: .03;
@@ -116,7 +108,45 @@
         transition: .6s;
     }
     .aboutMe-description {
-        max-width: 50%;
+        max-width: 40%;
+        padding: 2%;
+        font-size: 10px;
+    }
+
+    .div__img-aboutMe {
+        position: relative;
+        min-width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 450px;
+    }
+}
+
+@media (max-width: 888px) {
+    #AboutMe {
+        min-height: 850px;
+    }
+    .div__img-aboutMe img {
+        position: relative;
+        width: 400px;
+        max-height: 350px ;
+        transition: .6s;
+    }
+    
+    .div__img-aboutMe::after {
+        position: absolute;
+        content: "";
+        width: 400px;
+        max-height: 300px;
+        background-color: #F0A500;
+        transform: translate(15px, 15px);
+        opacity: .03;
+        z-index: -100;
+        transition: .6s;
+    }
+    .aboutMe-description {
+        min-width: 100%;
         padding: 2%;
         
     }
@@ -127,6 +157,41 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-height: 600px;
+        height: 600px;
+        font-size: 12px;
     }
+
 }
+
+@media (max-width: 1000px){
+  .aboutMe-description {
+    min-width: 100%;
+  }
+
+  .div__img-aboutMe img {
+    position: relative;
+    width: 400px;
+    min-height: 350px ;
+    transition: .6s;
+}
+.div__img-aboutMe::after {
+    position: absolute;
+    content: "";
+    width: 400px;
+    min-height: 350px;
+    background-color: #F0A500;
+    transform: translate(15px, 15px);
+    opacity: .03;
+    z-index: -100;
+    transition: .6s;
+}
+}
+
+.sectionSkills {
+   border: 2px solid red;
+}
+
+.div--skill__section {
+
+}
+

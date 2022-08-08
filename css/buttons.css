@@ -30,7 +30,7 @@
 .button--contact {
     position: relative;
     display: inline-block;
-    min-width: 173px;
+    min-width: 130px;
     min-height: 60px;
     text-align: center;
     transform-style: preserve-3d;

@@ -22,7 +22,7 @@
 
 .div__img-aboutMe img {
     position: relative;
-    max-width: 80%;
+    min-width: 80%;
     min-height: 90%;
     transition: .6s;
     object-fit: cover;
@@ -31,7 +31,7 @@
 .div__img-aboutMe::after {
     position: absolute;
     content: "";
-    max-width: 80%;
+    min-width: 80%;
     min-height: 90%;
     background-color: #F0A500;
     transform: translate(15px, 15px);
@@ -196,10 +196,5 @@
     }
 }
 
-.sectionSkills {
-   border: 2px solid red;
-}
 
-.div--skill__section {
-}
 

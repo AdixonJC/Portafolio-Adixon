@@ -20,14 +20,17 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/sectionSkills.css">
+    <link rel="stylesheet" href="./css/lightMode.css">
     <link rel="stylesheet" href="./icons/IcoMoon-Free/style.css">
+    <link rel="stylesheet" href="./icons/Icons-Brand/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <title>AdixonJC Portafolio</title>
 </head>
-<body>
+<body class="lightMode">
     <!-- header start -->
     <header class="header__container" id="main-header">
          <nav>
@@ -86,16 +89,16 @@
     <!-- responsive header end -->
 
     <!-- home start -->
-    <section id="Home" class="section__home display-flex content__items--center section__screen--complete glass_container nav-items prueba">
+    <section id="Home" class="section__home display-flex content__items--center section__screen--complete glass_container nav-items">
          <div class="cssglass div__home--container ">
               <h2 class="font-size">Welcome !!</h2>
-            <h1 class="font-size">I'm Full Stack <b>Developer</b></h1>
+                <h1 class="font-size">I'm Full-Stack Developer</h1>
          </div>
     </section>
     <!-- home end -->
 
     <!-- AboutMe Start -->
-    <main class="nav-items padding-container section__screen--complete" id="AboutMe">
+    <main class="nav-items padding-container section__screen--complete fullvh" id="AboutMe">
       <section class="section-aboutMe margin__nav-container">
         <div  class="div__img-aboutMe">
             <img src="./assets/images/AdixonFulltackProgrammer.jpg" alt="Adixon Camacho Full-Stack Programmer">
@@ -135,20 +138,102 @@
          </div>
         </section>
     </main>
-        
-        <section class="sectionSkills section__screen--complete padding-container">
-            <div class="margin__nav-container div--skill__section">
-                <div>
-                    <h5 class="border-line block font-weight">Education</h5>
-                </div>
-                <div>
-                    <h5 class="border-line block font-weight">Experience</h5>
-                </div>
-                <div>
+    <section class="sectionSkills section__screen--complete padding-container glass_container2">
+            <div class="margin__nav-container">
+                <div class="div--skill__section">
                     <h5 class="border-line block font-weight">My Skills</h5>
                 </div>
+                <div class="text__skills">
+                    <div class="div__icon withmid">
+                        <span class="ico icon-html5 "></span>
+                        <h6 class="marginIcon htmlRange">HTML5
+                            <span>93%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-css3"></span>
+                        <h6 class="marginIcon cssRange">CSS
+                            <span>89%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-javascript"></span>
+                        <h6 class="marginIcon jsRange">Javascript
+                            <span>87%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid react">
+                        <span class="ico icon-react"></span>
+                        <h6 class="marginIcon reactRange">React.js
+                            <span>85%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <div class="movile">
+                            <span class="ico icon-electron "></span>
+                        </div>
+                        <h6 class="marginIcon rnRange">React-Native
+                            <span>80%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-node-dot-js "></span>
+                        <h6 class="marginIcon nodeRange">Node.js
+                            <span>72%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-node-dot-js "></span>
+                        <h6 class="marginIcon expRange">Express
+                            <span>70%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-php "></span>
+                        <h6 class="marginIcon phpRange">PHP
+                            <span>70%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-laravel "></span>
+                        <h6 class="marginIcon laravelRange">Laravel
+                            <span>70%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-python "></span>
+                        <h6 class="marginIcon pythonRange">Python
+                            <span>65%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-django"></span>
+                        <h6 class="marginIcon djangoRange">Django
+                            <span>65%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-github"></span>
+                        <h6 class="marginIcon gitHubRange">Git & GitHub
+                            <span>90%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-mysql"></span>
+                        <h6 class="marginIcon mysqlRange">MySQL
+                            <span>90%</span>
+                        </h6>
+                    </div>
+                    <div class="div__icon withmid">
+                        <span class="ico icon-postgresql"></span>
+                        <h6 class="marginIcon postgresqlRange">PostgreSQL
+                            <span>91%</span>
+                        </h6>
+                    </div>
+                </div>
             </div>
-        </section>
+    </section>
+        
 
    <section id="Services" class="section__screen--complete nav-items section-services padding-container">
        <div class="display-flex content__items--center">
@@ -204,5 +289,6 @@
        <p>Copyright &copy; AC Productions All Rights Reserved</p>
    </footer>
    <script src="./Javascript/headerFunctions.js"></script>
+   <script src="./Javascript/lightMode.js"></script>
 </body>
 </html>

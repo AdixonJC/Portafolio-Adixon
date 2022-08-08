@@ -56,7 +56,7 @@ burguerMenu.onclick = showBurguerMenu
 
 const viewSection = (entries, observer) => {
    entries.forEach(entry => {
-    console.log(entry);
+    // console.log(entry);
     const id = entry.target.getAttribute("id") // a cada una de mis entradas le selecciono el atributo ID
     const navLink = document.querySelector(`a[href="#${id}"]`) // aqui le indico que quiero buscar selector por selector segun su ID
     console.log(navLink);
@@ -67,9 +67,9 @@ const viewSection = (entries, observer) => {
 }
 
 const observing = new IntersectionObserver(viewSection , {
-  root: null,
-  rootMargin: "0px 0px -50% 0px",
-  threshold: .2
+  // root: null,
+  // rootMargin: "0px 0px -50% 0px",
+  threshold: [.5 , .75]
 })
 
 navItems.forEach(el => observing.observe(el)) // nav items nos trae un arreglo y debemos obervar cada uno de los elementos

@@ -223,4 +223,18 @@
 }
 
 
+.text__skills article h3 {
+    width: 100%;
+    text-align: center;
+}
 
+
+.text__skills article h3::after {
+    width: 40%;
+    left: 30%;
+}
+
+.text__animation {
+    overflow: hidden;
+    transition: all .7s;
+}

@@ -54,140 +54,9 @@
     box-shadow: 0px 0px 6px 0px #F0A500;
 }
 
-/* Html Range */
-.text__skills .htmlRange::after {
+.marginIcon::after{
     content:"";
-    width: 93%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* CSS Range */
-.text__skills .cssRange::after {
-    content:"";
-    width: 89%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* Javascript Range*/
-.text__skills .jsRange::after {
-    content:"";
-    width: 87%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* React Range */
-.text__skills .reactRange::after {
-    content:"";
-    width: 85%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* React-Native Range */
-.text__skills .rnRange::after {
-    content:"";
-    width: 80%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* Node.js Range */
-.text__skills .nodeRange::after {
-    content:"";
-    width: 72%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* Express Range */
-.text__skills .expRange::after {
-    content:"";
-    width: 70%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* PHP Range */
-.text__skills .phpRange::after {
-    content:"";
-    width: 70%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* Laravel Range */
-.text__skills .laravelRange::after {
-    content:"";
-    width: 70%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* Python Range */
-.text__skills .pythonRange::after {
-    content:"";
-    width: 65%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* Django Range */
-.text__skills .djangoRange::after {
-    content:"";
-    width: 65%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* GitHub Range */
-.text__skills .gitHubRange::after {
-    content:"";
-    width: 90%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* MySQL Range */
-.text__skills .mysqlRange::after {
-    content:"";
-    width: 90%;
-    height: 4px;
-    position: absolute;
-    bottom: 0;
-    background: #F0A500;
-    left: 0;
-}
-/* PostgreSQL Range */
-.text__skills .postgresqlRange::after {
-    content:"";
-    width: 91%;
+    width: 100%;
     height: 4px;
     position: absolute;
     bottom: 0;
@@ -208,6 +77,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    position: relative;
+    z-index: 1;
 }
 
 .glass_container2::before {
@@ -220,6 +91,7 @@
     background:linear-gradient(rgba(12, 5, 5, 0.85), rgba(5,7,12,0.85));
     position: absolute;
     top: 0%;
+    z-index: -1;
 }
 
 
@@ -234,7 +106,39 @@
     left: 30%;
 }
 
-.text__animation {
-    overflow: hidden;
-    transition: all .7s;
+.text__skills {
+    cursor: pointer;
 }
+
+
+.icon-circle-down {
+    position: absolute;
+    margin-top: 20px;
+    transition: rotate .6s;
+}
+
+.text__animation {
+    transition: max-height .8s;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.active-details {
+    max-height: 280px;
+    transition: max-height .8s;
+}
+
+
+.iconRotate {
+    rotate: -180deg;
+    transition: rotate .6s;
+}
+
+
+
+
+
+
+
+
+

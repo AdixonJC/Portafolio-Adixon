@@ -22,8 +22,8 @@ body {
   *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
     color: #F0E3CA;
+    text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     font-family: 'Josefin sans', sans-serif;

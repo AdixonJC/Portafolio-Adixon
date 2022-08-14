@@ -12,7 +12,7 @@ let arrayItems = [...navItems] //convierto mis listas y nodos en arrays
 let arrayList = [...listItems] //convierto mis listas y nodos en arrays
 
 
-console.log(navItems);
+// console.log(navItems);
 
 const scrollHeaderTop = () => {
   if(header){
@@ -59,7 +59,7 @@ const viewSection = (entries, observer) => {
     // console.log(entry);
     const id = entry.target.getAttribute("id") // a cada una de mis entradas le selecciono el atributo ID
     const navLink = document.querySelector(`a[href="#${id}"]`) // aqui le indico que quiero buscar selector por selector segun su ID
-    console.log(navLink);
+    // console.log(navLink);
     if(entry.isIntersecting) {
       navLink.classList.add("active")
     } else navLink.classList.remove("active")

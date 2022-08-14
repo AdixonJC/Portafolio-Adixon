@@ -141,3 +141,10 @@ h3, h4 ,h5 ,h6 {
     height: 100vh;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
+.border {
+    border: 2px solid red;
+}

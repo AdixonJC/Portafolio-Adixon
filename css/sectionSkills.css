@@ -204,7 +204,7 @@
 }
 .leters-spacing {
     position: relative;
-    font-size: 3.5em;
+    font-size: 3em;
     display: flex;
     flex-wrap: nowrap;
     margin: auto;

@@ -146,8 +146,8 @@
 }
 .li-animations {
     display: inline-block;
-    height:40px;
-    width: 40px;
+    height:70px;
+    width: 70px;
     background-color: #F0A500;
     animation: figure linear 6s alternate infinite;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);/*indispensable profundizar esta propiedad*/
@@ -204,7 +204,7 @@
 }
 .leters-spacing {
     position: relative;
-    font-size: 2em;
+    font-size: 3.5em;
     display: flex;
     flex-wrap: nowrap;
     margin: auto;

@@ -5,23 +5,17 @@ const iconRotate = document.querySelectorAll(".icon-circle-down")
 
 const windowView = document.querySelectorAll(".text__animation")
 
-console.log(windowView);
-
 showText.forEach((text , index) =>{
      text.addEventListener("click", ()=> {
           windowView.forEach(el => {
-               if(el === windowView[index]){
-                    windowView[index].classList.toggle("active-details")     
-               } else{
-                    el.classList.remove("active-details")
-               }
+               if(el === windowView[index]) return windowView[index].classList.toggle("active-details")     
+
+               return  el.classList.remove("active-details")
           })
           iconRotate.forEach(el => {
-               if (el === iconRotate[index]) {
-                    iconRotate[index].classList.toggle("iconRotate")
-               } else {
-                    el.classList.remove("iconRotate")
-               }
+               if (el === iconRotate[index]) return iconRotate[index].classList.toggle("iconRotate")
+               
+               return el.classList.remove("iconRotate")
           })
      })
 })

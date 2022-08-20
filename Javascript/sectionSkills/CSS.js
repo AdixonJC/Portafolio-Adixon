@@ -19,5 +19,3 @@ showText.forEach((text , index) =>{
           })
      })
 })
-
-

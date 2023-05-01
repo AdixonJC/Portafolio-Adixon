@@ -1,0 +1,23 @@
+canvas {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#textInput {
+    position: absolute;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    z-index: 100;
+    color: #F0A500;
+}
+
+.canvas-window {
+    height: 700px;
+}

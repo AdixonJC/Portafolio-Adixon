@@ -5,6 +5,7 @@
 
 .sectionSkills {
     position: relative;
+    display: flex;
 }
 
 .text__skills {

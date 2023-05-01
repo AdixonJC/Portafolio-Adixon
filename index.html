@@ -14,6 +14,7 @@
     <link rel = "stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/helpers.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/canvasStyle.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/aboutMe.css">
     <link rel="stylesheet" href="./css/contactMe.css">
@@ -24,6 +25,7 @@
     <link rel="stylesheet" href="./css/lightMode.css">
     <link rel="stylesheet" href="./icons/IcoMoon-Free/style.css">
     <link rel="stylesheet" href="./icons/Icons-Brand/style.css">
+    <link rel="stylesheet" href="./css/javascriptSkill.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -214,19 +216,28 @@
                         <h6 class="marginIcon">Javascript</h6>
                  </div>
                  <div class="text__animation">
-                    <article>
-                        <h3 class="border-line block front-weight">Web Structure</h3>
-                        <p>I will write <strong>semantic HTML5 code</strong>, 
-                            which will give your web, 
-                            an additional descriptive touch to optimize 
-                            search engine positioning and thus have a 
-                            website with the best structure and search engine optimization.
+                    <article class="relative">
+                        <h3 class="border-line block front-weight">Vanilla Javascript / OOP</h3>
+                        <p class="textJavascript"> 
+                            I will make your website or mobile application dynamic,
+                            making particle animations, 
+                            controlled inputs, drop-down windows, 
+                            with different programming techniques such as<br/>
+                            <ul class="ul__text-javascript">
+                                <li><strong class="strong__A1">Vanilla Javascript </strong></li></ul><br>
+                                <li><strong class="strong__A2">OOP(Object Oriented Programming</strong></li><br>
+                                <li><strong class="strong__A3">Functional Programming</strong></li>
+                            </ul>  
                         </p><br/>
                         <p>
                             I will create structured forms with validation
                             and ready to send information to <b>the back end</b>.  
                         </p>
                     </article>
+                    <div class="relative canvas-window">
+                        <input type="text" id="textInput" placeholder="Type somethin..." value="This is only OOP">
+                        <canvas id="canvas1"></canvas>
+                    </div>
                 </div>
                 </div>
                 <div class="text__skills">
@@ -253,7 +264,7 @@
                 </div>
                 <div class="text__skills">
                     <div class="div__icon withmid">
-                            <span class="ico icon-electron "></span>
+                            <span class="ico icon-react "></span>
                             <span class="ico icon-circle-down"></span>
                         <h6 class="marginIcon">React-Native</h6>
                     </div>
@@ -273,7 +284,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="text__skills">
+                <!-- <div class="text__skills">
                     <div class="div__icon withmid">
                         <span class="ico icon-node-dot-js "></span>
                         <span class="ico icon-circle-down"></span>
@@ -404,7 +415,7 @@
                             </p>
                         </article>
                     </div>
-                </div>
+                </div> -->
                 <div class="text__skills">
                     <div class="div__icon withmid">
                         <span class="ico icon-github"></span>
@@ -427,7 +438,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="text__skills">
+                <!-- <div class="text__skills">
                     <div class="div__icon withmid">
                         <span class="ico icon-mysql"></span>
                         <span class="ico icon-circle-down"></span>
@@ -448,8 +459,8 @@
                             </p>
                         </article>
                     </div>
-                </div>
-                <div class="text__skills">
+                </div> -->
+                <!-- <div class="text__skills">
                     <div class="div__icon withmid">
                         <span class="ico icon-postgresql"></span>
                         <span class="ico icon-circle-down"></span>
@@ -470,7 +481,7 @@
                             </p>
                         </article>
                     </div>
-                </div>
+                </div> -->
             </div>
     </section>
         
@@ -531,5 +542,6 @@
    <script src="./Javascript/headerFunctions.js"></script>
    <script src="./Javascript/sectionSkills/CSS.js"></script>
    <script src="./Javascript/sectionSkills/Javascript.js"></script>
+   <script src="./Javascript/sectionSkills/node.js"></script>
 </body>
 </html>

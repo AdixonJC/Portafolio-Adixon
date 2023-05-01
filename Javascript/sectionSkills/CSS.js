@@ -1,9 +1,10 @@
-const showText = document.querySelectorAll(".div__icon")
-const iconRotate = document.querySelectorAll(".icon-circle-down")
+const showText = document.querySelectorAll(".div__icon");
+const iconRotate = document.querySelectorAll(".icon-circle-down");
+
 
 // console.log(iconRotate);
 
-const windowView = document.querySelectorAll(".text__animation")
+const windowView = document.querySelectorAll(".text__animation");
 
 showText.forEach((text , index) =>{
      text.addEventListener("click", ()=> {
@@ -16,6 +17,6 @@ showText.forEach((text , index) =>{
                if (el === iconRotate[index]) return iconRotate[index].classList.toggle("iconRotate")
                
                return el.classList.remove("iconRotate")
-          })
-     })
-})
+          });
+     });
+});

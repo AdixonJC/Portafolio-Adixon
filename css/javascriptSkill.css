@@ -1,0 +1,67 @@
+/* .ul__text-javascript {
+    line-height: 50px;
+}
+
+.strong__A1 {
+    display: block;
+    white-space: nowrap;
+    border-right: 2px solid;
+    height: 40px;
+    width: 1ch;
+    animation: typing 3s steps(19)infinite  alternate, blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.strong__A2 {
+    display: block;
+    white-space: nowrap;
+    border-right: 2px solid;
+
+    width: 29ch;
+    animation: typing 6s steps(29)infinite alternate, blink .5s infinite step-end alternate;
+    overflow: hidden;
+    height: 40px;
+}
+
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.strong__A3 {
+    display: block;
+    white-space: nowrap;
+    border-right: 2px solid;
+    height: 40px;
+    width: 19.6ch;
+    animation: typing 4s steps(19)infinite alternate, blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+} */

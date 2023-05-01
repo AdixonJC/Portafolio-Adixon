@@ -148,3 +148,11 @@ h3, h4 ,h5 ,h6 {
 .border {
     border: 2px solid red;
 }
+
+.relative {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50rem;
+    flex-grow: 999;
+}
